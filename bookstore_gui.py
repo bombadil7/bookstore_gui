@@ -46,16 +46,16 @@ MY_FONT = ("Veranda", 32)
 
 window = Tk()
 
-l1 = Label(window, text="Title", width=20, font=MY_FONT)
+l1 = Label(window, text="Title", width=10, font=MY_FONT)
 l1.grid(row=0, column=0)
 
-l2 = Label(window, text="Author", width=20, font=MY_FONT)
+l2 = Label(window, text="Author", width=10, font=MY_FONT)
 l2.grid(row=0, column=2)
 
-l3 = Label(window, text="Year", width=20, font=MY_FONT)
+l3 = Label(window, text="Year", width=10, font=MY_FONT)
 l3.grid(row=1, column=0)
 
-l4 = Label(window, text="ISBN", width=20, font=MY_FONT)
+l4 = Label(window, text="ISBN", width=10, font=MY_FONT)
 l4.grid(row=1, column=2)
 
 title_text = StringVar()
@@ -74,6 +74,7 @@ isbn_text = StringVar()
 e4 = Entry(window, textvariable=isbn_text)
 e4.grid(row=1, column=3)
 
-
+list1 = Listbox(window, height=6, width=35)
+list1.grid(row=2, column=0, rowspan=6, columnspan=2)
 
 window.mainloop()
