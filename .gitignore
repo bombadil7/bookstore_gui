@@ -1,0 +1,3 @@
+*.db
+*.swp
+.ipynb_checkpoints/
