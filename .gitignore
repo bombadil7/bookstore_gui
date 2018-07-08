@@ -2,3 +2,5 @@
 *.swp
 .ipynb_checkpoints/
 __pycache__
+*.spec
+build
