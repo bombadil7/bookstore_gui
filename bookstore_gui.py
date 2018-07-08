@@ -88,7 +88,7 @@ def update_command():
     backend.update(selected_tuple[0], title_text.get(), author_text.get(), year_text.get(), isbn_text.get())
     view_command()
 
-MY_FONT = ("Veranda", 32)
+MY_FONT = ("Veranda", 10)
 
 window = Tk()
 window.wm_title("BookStore")
