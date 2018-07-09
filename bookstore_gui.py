@@ -89,6 +89,7 @@ def update_command():
     database.update(selected_tuple[0], title_text.get(), author_text.get(), year_text.get(), isbn_text.get())
     view_command()
 
+# This doesn't work on pixelbook
 MY_FONT = ("Veranda", 10)
 
 window = Tk()
